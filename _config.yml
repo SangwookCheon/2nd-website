@@ -1,7 +1,7 @@
 ### your site title here
 
 title: Sangwook Cheon
-baseurl: /sangwookcheon # name of the repository
+baseurl: # name of the repository
 email: sangwookchn@gmail.com
 
 
@@ -43,3 +43,4 @@ exclude:
 plugins:
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-sitemap
