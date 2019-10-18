@@ -34,4 +34,4 @@ Make changes to the **master** branch and create a pull request. Do not use **gh
 
 
 ## License
-MIT License 
+MIT License
