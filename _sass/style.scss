@@ -131,7 +131,26 @@ blockquote {
     }
 }
 
-
+.lightnight {
+    background-image: url(../images/left-arrow.svg);
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 80px;
+    opacity: 0.6;
+    position: fixed;
+    top: 170px;
+    left: 90px;
+    &:hover{
+    opacity: 1;
+    }
+    @include media-query($on-laptop) {
+        top: 90%;
+        left: 75%;
+        height: 40px;
+        width: 40px;
+        opacity: 0.6;
+    }
+}
 
 /* Article list in index/home page */
 .article-list {
