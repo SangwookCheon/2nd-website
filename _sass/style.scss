@@ -275,11 +275,17 @@ footer {
 /* width */
 ::-webkit-scrollbar {
   width: 5px;
+  @include media-query($on-laptop) {
+      width: 5px;
+  }
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
   background-color: #F09835;
+  @include media-query($on-laptop) {
+      background-color: #F09835;
+  }
   // box-shadow: inset 0 0 5px grey;
   // border-radius: 10px;
 }
@@ -287,9 +293,12 @@ footer {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #025FFF;
+  @include media-query($on-laptop) {
+    background: #025FFF;
+  }
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  
+
 }
